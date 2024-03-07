@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/tvm/python"// highlight imported vta and auto completion
+    ]
+}
