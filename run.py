@@ -71,7 +71,7 @@ output_list = generate_ref_data(mod, inputs)
 
 
 target_c = tvm.target.Target("c")
-export_directory = tvm.contrib.utils.tempdir(keep_for_debug=True).path
+export_directory = "uma_output/files"
 print(f"Generated files are in {export_directory}")
 compile_and_run(
     AOTModel(module=mod, inputs=inputs, outputs=output_list),

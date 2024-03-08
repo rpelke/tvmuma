@@ -18,6 +18,6 @@ You need cmake and llvm for the following steps.
 
 3. Enable virtual environments in VSCode. Create a new environment using the `requirements.txt`.
 
-4. Call `python3 train_model.py` inside the environment.
+4. Execute `python3 train_model.py` inside the environment.
 
-
+5. Execute `run.py` inside the environment.

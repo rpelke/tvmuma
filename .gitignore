@@ -2,3 +2,4 @@ tvm
 .pkl_memoize_py3
 *.h5
 __pycache__
+uma_output/files
